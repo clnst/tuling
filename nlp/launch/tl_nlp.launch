@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="nlp" type="nlp_node" name="tl_nlp" output="screen">
+    <param name="sub_topic" type="str" value="nlp/tuling"/>
+    <param name="pub_topic" type="str" value="xf_voice/tts"/>
+    <param name="user_id" type="str" value="f483d25950304b129bd7b1cd9c01fdbe"/>
+    </node>
+</launch>
